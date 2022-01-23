@@ -46,3 +46,10 @@ When finished reboot
 2) Click the download button on the left to download the installer
 3) Run setup.exe
 4) When prompted take all defaults.
+
+### Step 6: Rev Libraries ###
+
+1) Open https://docs.revrobotics.com/rev-hardware-client/getting-started/installation-instructions
+2) Click the Download Latest Rev Hardware Client
+3) Run the install
+4) When prompted take all defaults.

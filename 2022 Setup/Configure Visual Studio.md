@@ -7,3 +7,16 @@
 5) Format on Save Mode should be "file"
 6) Locate "Auto Save" and make sure it is set to onFocusChange
 7) Auto Save Delay should be 1000
+
+## Configure Libraries ##
+
+1) Click the W icon in the upper right corner
+2) Type Vendor in the box that opens
+3) Select Manage Vendor Libraries
+4) Select Install new Libraries (Offline)
+5) Select the Follow Libraries
+* CTRE
+* Rev
+* KuaiLabs
+6) Click OK
+7) When prompted rebuild the code
