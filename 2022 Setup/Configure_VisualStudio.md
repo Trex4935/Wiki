@@ -8,7 +8,7 @@
 6) Locate "Auto Save" and make sure it is set to onFocusChange
 7) Auto Save Delay should be 1000
 
-## Configure Libraries ##
+## Configure Libraries ## -- SKIP THIS FOR NOW
 
 1) Click the W icon in the upper right corner
 2) Type Vendor in the box that opens
