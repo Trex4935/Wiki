@@ -9,19 +9,20 @@ For computers that will write code but will NOT be connected to the robot please
 * All National Instruments code
 
 ## Install Process ##
+
 ### Step 1: Nation Instruments software ####
 
 Follow the link from:
 https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/offline-installation-preparations.html#all-teams
 
-Install: 2022 FRC Game Tools
+Install: 2023 FRC Game Tools
 When prompted take all of the defaults.
 When finished reboot
 
 ### Step 2: WPILib + Visual Studio Code ###
 
 1) Open: https://github.com/wpilibsuite/allwpilib/releases
-2) Locate and download the latest version of: **WPILib_Windows64-2022.X.X.iso**
+2) Locate and download the latest version of: **WPILib_Windows-2023.X.X.iso**
 3) Open the ISO and run the installer
 4) When prompted select to download and install Visual Studio Code for this machine (top left option)
 4) Continue thru install selecting defaults
