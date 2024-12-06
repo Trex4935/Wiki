@@ -9,7 +9,7 @@ A RedBook is a collection of dos & don't that we have learned for building robot
 - [Design](Design.md)
 - [Marketing](Marketing.md)
 - [Safety & Logistics](SafetyAndLog.md)
-- [Strategy & Project Management](SafetyAndLog.md)
+- [Strategy & Project Management](StratAndProjects.md)
 
 ## Team RedBooks ##
 - [Recruting](Recruiting.md)
