@@ -1,31 +1,43 @@
-# Install Required 2022 software
+# Install Required 2024 software
 
 ## Initial Setup ##
-For all Machines that will connect to the robot it is strongly recommended that they be reset to a BASE OS before installing any software.
+Please factory reset your laptop. Remove all the files
 
-For computers that will write code but will NOT be connected to the robot please Uninstall ALL 2020 or 2021 software.
-* Visual Studio Code
-* WpLib
-* All National Instruments code
+1) Search Up "Reset This PC"
+2) Click Erase all Files
+3) Follow the prompts
+4) On Inital Setup, stop on the page where it asks for the wifi, DO NOT CONNECT TO WIFI and type this command:
+```
+SHIFT + F10
+OOBE/BYPASSNRO
+```
+You will then be able to reboot and go through the setup and click "I don't have internet" on the Network page and then walk through the process.
+
+For the username type in: Trex
+Password: Trex
+Security Questions: J (All the answers)
+
+Click No for all the privacy settings.
 
 ## Install Process ##
 
 ### Step 1: Nation Instruments software ####
 
 Follow the link from:
-https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/offline-installation-preparations.html#all-teams
+https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/
 
-Install: 2023 FRC Game Tools
+Installing the 2025 FRC Game Tools
 When prompted take all of the defaults.
 When finished reboot
 
 ### Step 2: WPILib + Visual Studio Code ###
 
-1) Open: https://github.com/wpilibsuite/allwpilib/releases
-2) Locate and download the latest version of: **WPILib_Windows-2023.X.X.iso**
+1) Open: https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html
+2) Scroll Down to the downloader and hit download on the **WPILib 2025.X.X Release**
 3) Open the ISO and run the installer
 4) When prompted select to download and install Visual Studio Code for this machine (top left option)
 4) Continue thru install selecting defaults
+
 
 ### Step 3: Github ###
 
