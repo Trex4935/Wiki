@@ -50,8 +50,9 @@ When finished reboot
 
 1) Open: https://store.ctr-electronics.com/software/
 2) Locate and download the 64 bit installer for **Phoenix Framework Installer**
-3) Start the Installer.
-4) When prompted take all defaults.
+3) Go ahead in also install **Phoenix Tuner X**
+4) Start the Installer.
+5) When prompted take all defaults.
 
 ### Step 5: Rev Libraries ###
 
