@@ -12,7 +12,7 @@ SHIFT + F10
 OOBE\BYPASSNRO
 ```
 You will then be able to reboot and go through the setup and click "I don't have internet" on the Network page and then walk through the process.
-
+Click Continue with Limted setup
 For the username type in: Trex <br />
 Password: Trex <br />
 Security Questions: J (All the answers)
