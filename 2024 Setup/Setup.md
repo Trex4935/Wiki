@@ -64,3 +64,10 @@ When finished reboot
 2) Click the Download Latest Rev Hardware Client
 3) Run the install
 4) When prompted take all defaults.
+   
+### Step 6: Path Planner ###
+
+1) Open [https://docs.revrobotics.com/rev-hardware-client/getting-started/installation-instructions](https://github.com/mjansen4857/pathplanner/releases)
+2) Click the On latest release
+3) Click on Windows EXE Installer
+4) When prompted take all defaults.
