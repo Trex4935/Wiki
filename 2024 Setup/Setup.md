@@ -9,7 +9,7 @@ Please factory reset your laptop. Remove all the files
 4) On Inital Setup, stop on the page where it asks for the wifi, DO NOT CONNECT TO WIFI and type this command:
 ```
 SHIFT + F10
-OOBE/BYPASSNRO
+OOBE\BYPASSNRO
 ```
 You will then be able to reboot and go through the setup and click "I don't have internet" on the Network page and then walk through the process.
 
