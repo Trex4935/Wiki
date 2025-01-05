@@ -46,7 +46,7 @@ When finished reboot
 ### Step 3: Github ###
 
 1) Open: https://git-scm.com/download/win
-2) Locate ** 64-bit Git for Windows Setup. **
+2) Locate **64-bit Git for Windows Setup.**
 3) Download and start the installer.
 4) When prompted take all defaults.
 
