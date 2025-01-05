@@ -21,6 +21,10 @@ Click No for all the privacy settings.
 
 ## Install Process ##
 
+## Use this Link On PC for better Navigability ##
+```
+https://tinyurl.com/36efap5z
+```
 ### Step 1: Nation Instruments software ####
 
 Follow the link from:
