@@ -13,8 +13,8 @@ OOBE\BYPASSNRO
 ```
 You will then be able to reboot and go through the setup and click "I don't have internet" on the Network page and then walk through the process.
 
-For the username type in: Trex
-Password: Trex
+For the username type in: Trex <br />
+Password: Trex <br />
 Security Questions: J (All the answers)
 
 Click No for all the privacy settings.
