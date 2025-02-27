@@ -1,6 +1,4 @@
-// Copyright (c) FIRST and other WPILib contributors.
-// Open Source Software; you can modify and/or share it under the terms of
-// the WPILib BSD license file in the root directory of this project.
+//joseph sysuid tutoirla !!!
 
 package frc.robot.subsystems;
 
@@ -20,7 +18,7 @@ import frc.robot.Constants;
 public class CoralIntake extends SubsystemBase {
   final VoltageOut m_sysIdControl = new VoltageOut(0);
 
-  public final TalonFX coralIntakeMotor;
+  public final TalonFX motorexamplefortewstitnadogldg;
  //this creates the sysid routine 
  private final SysIdRoutine m_sysIdRoutine;
 
@@ -37,7 +35,7 @@ public class CoralIntake extends SubsystemBase {
                 // Log state with Phoenix SignalLogger class
                 state -> SignalLogger.writeString("MECH SYSID", state.toString())),
             new SysIdRoutine.Mechanism(
-                volts -> coralIntakeMotor.setControl(m_sysIdControl.withOutput(volts)),
+                volts -> motorexamplefortewstitnadogldg.setControl(m_sysIdControl.withOutput(volts)),
                 null,
                 this));
   }
@@ -49,3 +47,13 @@ public class CoralIntake extends SubsystemBase {
   public Command sysIdDynamic(SysIdRoutine.Direction direction) {
     return m_sysIdRoutine.dynamic(direction);
   }
+//this should be for robotcontainer
+
+    control.povRight().onTrue(Commands.runOnce(SignalLogger::start));
+    control.povLeft().onTrue(Commands.runOnce(SignalLogger::stop));
+
+    control.y().whileTrue(m_coralIntake.sysIdQuasistatic(SysIdRoutine.Direction.kForward));
+    control.a().whileTrue(m_coralIntake.sysIdQuasistatic(SysIdRoutine.Direction.kReverse));
+
+    control.b().whileTrue(m_coralIntake.sysIdDynamic(SysIdRoutine.Direction.kForward));
+    control.x().whileTrue(m_coralIntake.sysIdDynamic(SysIdRoutine.Direction.kReverse));
