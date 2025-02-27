@@ -1,1 +1,49 @@
-How to SysIDFirst you need to make sure this code [template ](https://github.com/Trex4935/Wiki/blob/main/Training/example.java)is in your subsystem.&nbsp;Alongside that, you need to make sure that in robot this code is under teleop initSignalLogger.setPath("/media/sda1/ctre-logs/");### Now it's time for testing!Make sure the usb is plugged into one of the Rio ports and this is where the logs will be transmitted.Start with pov right on the controller, this starts the log collection, I start out with X till it stops then with B when it stops.Then be careful with a and y, first it will stall but then ramp up very fast in speed, just let go when it gets "too fast"Lastly, save the logs with pov left.### Extracting!&nbsp;&nbsp;Go into tuner and under tools, click on log extracter. In the file explorer click connect and paste in the path:```/media/sda1/```After that click on the log folder and download it.You now need to convert it lol, click on convert and your log should be there, change output type to WPI LOG and make sure that all the flags are highlighted , hit convert and that should be it!### Loading LogsOpen up SysID and load the new logs you just made.&nbsp;Drag the xx_sysid into data selector, and expand Pheniox 6, expand the motor folder as well, scroll through and add&nbsp;Velocity -&gt; Velocity in Data PanelPosition -&gt; Position in Data PanelSupply Voltage -&gt; VoltageThat should be it, now click load data you should see some charts and data.#### Interpret LogsAll the data should be here, just take note of the Kp and add that to tuner, then you should be done.&nbsp;
+
+# How to SysID  
+
+## Prerequisites  
+1. Ensure that the [template code](https://github.com/Trex4935/Wiki/blob/main/Training/example.java) is in your subsystem.  
+2. In `robot`, under `teleop init`, add the following line:  
+   ```java
+   signalLogger.setPath("/media/sda1/ctre-logs/");
+   ```  
+
+## Testing  
+### Setup  
+- Plug a USB drive into one of the RIO ports—this is where the logs will be stored.  
+
+### Log Collection  
+1. Start log collection by pressing **POV Right** on the controller.  
+2. Use **X** until it stops, then switch to **B** until it stops.  
+3. Be careful with **A** and **Y**—it will stall initially but then ramp up in speed quickly. Release the button when it gets "too fast."  
+4. Save the logs by pressing **POV Left**.  
+
+## Extracting Logs  
+1. Open **Tuner** and go to **Tools > Log Extractor**.  
+2. In the file explorer, click **Connect** and paste the path:  
+   ```
+   /media/sda1/
+   ```  
+3. Open the `log` folder and download the log file.  
+4. Convert the log:  
+   - Click **Convert**.  
+   - Select **WPI LOG** as the output type.  
+   - Ensure all flags are highlighted.  
+   - Click **Convert** again.  
+
+## Loading Logs in SysID  
+1. Open **SysID** and load the converted logs.  
+2. Drag the `xx_sysid` file into the **Data Selector**.  
+3. Expand **Phoenix 6** and **Motor** folders.  
+4. In the **Data Panel**, map the following:  
+   - **Velocity → Velocity**  
+   - **Position → Position**  
+   - **Supply Voltage → Voltage**  
+5. Click **Load Data**—you should now see charts and data.  
+
+## Interpreting Logs  
+- Review the extracted data.  
+- Note the **Kp** value and add it to **Tuner**.  
+- That should complete the process!  
+
+
