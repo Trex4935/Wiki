@@ -33,7 +33,7 @@ public class CoralIntake extends SubsystemBase {
                 Volts.of(1.85), // Reduce dynamic voltage to 4 to prevent brownout
                 null, // Use default timeout (10 s)
                 // Log state with Phoenix SignalLogger class
-                state -> SignalLogger.writeString("MECH SYSID", state.toString())),
+                state -> SignalLogger.writeString("xx_SYSID", state.toString())),
             new SysIdRoutine.Mechanism(
                 volts -> motorexamplefortewstitnadogldg.setControl(m_sysIdControl.withOutput(volts)),
                 null,
